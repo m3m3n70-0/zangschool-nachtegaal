@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+}
+a{text-decoration: none; cursor: pointer;}
+a:hover{opacity: 70%;}
+li{list-style: none;}
+p, h1, h2, h3, h4{color: #2384C1;}
+
+/* NAVIGATION */
+.top-nav{
+    background-color: #2384C1;
+}
+.top-nav img{
+    width: 20%;
+    left: 5%;
+    top: 0%;
+    position: absolute;
+}
+
+nav h1{
+    color: #fff;
+    font-size: 7vh;
+    font-weight: 700;
+    padding: 30px 18%;
+}
+
+.nav-bottom{
+    display: flex;
+    background-color: #DEEFF9;
+    justify-content: center;
+    margin-left: -24%;
+    padding: 1%;
+}
+.nav-bottom li{
+    padding-right: 2%;
+    z-index: 1 !important;
+    position: relative;
+}
+.nav-bottom li a{
+    color: #2384C1;
+    font-weight: 500;
+}
+.selected{
+    color: #C17E23 !important;
+}
+
+/* INDEX.HTML */
+
+.home-sec .container{
+    display: flex;
+    justify-content: space-between;
+}
+.home-sec:nth-child(odd) {
+    background-color: #DEEFF9 !important;
+}
+.home-sec h1{
+    font-size: 4vh;
+    font-weight: 500;
+    padding-bottom: 2%;
+}
+/* SECTION 1 */
+#home-section1{
+    background-color: #fff;
+    padding: 10% 10% 2%;
+}
+#home-section1 .container .tekst{
+    max-width: 57%;
+}
+#home-section1 img{
+    width: 400px;
+    padding-top: 20%;
+}
+
+/* SECTION 2 */
+#home-section2{
+    padding: 3% 10% 3%;
+}
+#home-section2 .container .tekst, #home-section2 .container .tekst2 {
+    max-width: 48%;
+}
+
+/* SECTION 3 */
+#home-section3{
+    background-color: #fff;
+    padding: 3% 10% 3%;
+}
+#home-section3 img{
+    width: 400px;
+}
+#home-section3 .container .tekst {
+    max-width: 50%;
+}
+
+/* EINDE INDEX.HTML */
+
+/* DOCENTEN.HTML */
+
+/* SECTION 1 */
+#doc-section1{
+    background-color: #fff;
+    padding: 10% 10% 3%;
+}
+#doc-section1 .tekst{
+    max-width: 50%;
+}
+
+/* VIDEO SECTIONS  */
+.doc-sec:nth-child(odd){
+    background-color: #DEEFF9;
+}
+.doc-sec{
+    padding: 3% 10% 3%;
+}
+.doc-sec .container{
+    display: flex;
+    justify-content: space-evenly;
+}
+.doc-sec .tekst {
+    max-width: 43%;
+}
+
+/* EINDE DOCENTEN.HTML */
